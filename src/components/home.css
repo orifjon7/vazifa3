@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.home-wrapper{
+    display: flex;
+    padding-top: 50px;
+}
+
+
+.home-main {
+    display: flex;
+    flex-direction: column;
+ padding-left: 100px;
+    padding-right: 50px;
+  padding-top: 50px;
+    
+}
+.home-main h1{
+    color: #534847;
+font-family: Raleway;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.home-main p{
+    color: #8D8180;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.home-main h5{
+    color: #E2B84C;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.home-main img{
+    width: 225px;
+height: 225px;
+flex-shrink: 0;
+padding-left: -100px;
+}
+.home-main-bg{
+    background-image: url(../assests/Transnational-Bank-Plaza-Paint-work-Buildmax-2\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 600px;
+height: 650px;
+   border-top-left-radius: 30px;
+   padding-right: 50px;
+}
+.home-main-bg h1{
+    background-color: #F9F9F9;
+    width: 300px;
+height: 70px;
+color: #534847;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+
+margin-top: 580px;
+margin-left: 350px;
+}
+.home-text {
+    display: flex;
+height: 500px;
+padding-top: 50px;
+
+}
+.home-text-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.home-text-left h1{
+    color: #534847;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.home-text-left h5{
+    color: #E2B84C;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.home-text-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-text-right p{
+    color: #8D8180;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.home-text-right h5{
+    color: #E4A655;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: end;
+}
+.home-design{
+    display: flex;
+    height: 860px;
+}
+.home-design-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    background: #F9F9F9;
+}
+.home-design-left img{
+    width: 550px;
+height: 450px;
+flex-shrink: 0;
+}
+.home-design-left h1{
+    color: #534847;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 50px;
+}
+.home-design-left p{
+    color: #8D8180;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 50px;
+}
+.home-design-left button{
+    width: 220px;
+height: 47px;
+flex-shrink: 0;
+background: #E6A859;
+color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 50px;
+}
+.home-design-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    padding-left: 50px;
+    background: #F9F9F9;
+}
+.home-design-right h1{
+    color: #534847;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 50px;
+}
+.home-design-right p{
+    color: #8D8180;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 50px;
+}
+.home-design-right button{
+    width: 220px;
+height: 47px;
+flex-shrink: 0;
+background: #E6A859;
+color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 50px;
+}
+.home-design-right img{
+    width: 550px;
+    height: 500px;
+    flex-shrink: 0;
+}
+.sketch-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.sketch-text h1{
+    color: #534847;
+text-align: center;
+font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sketch-wr{
+    display: flex;
+    
+
+}
+.sketch-wr div{
+    display: flex;
+   flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+padding: 9%;
+}
+.sketch-wr h1{
+    color: #534847;
+text-align: center;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sketch-wr p{
+    color: #8D8180;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.project-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-text h1{
+    color: #534847;
+text-align: center;
+font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.project-wr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.galery-wr{
+    background: #F9F9F9;
+height: 816px;
+display: flex;
+flex-direction: column;
+padding-bottom: 100px;
+}
+.galery-wr div{
+    flex: 1;
+    align-items: center;
+}
+.galery-text {
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+.galery-text h1{
+    color: #534847;
+font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.galery-text h5{
+    color: #E2B84C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.galery-text p{
+    color: #8D8180;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.galery-photo{
+    display: flex;
+    justify-content: center;
+}
